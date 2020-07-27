@@ -58,9 +58,11 @@ $(window).on("load", function () {
                 $(window).scrollTop(0);
             }, 400);
     });*/
-    setInterval(function(){
-              $("body").css("overflow","auto");
+
+        setInterval(function(){
+               $("body").css("overflow-y","scroll");
                $(".loading").fadeOut("slow",function () {
                 $(this).remove();
-                $(window).scrollTop(0); });}, 2000);
+                $(window).scrollTop(0);
+               });},3000);
 });
