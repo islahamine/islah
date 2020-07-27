@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/fixescollonmobile.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- START NAVBAR-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button onclick="check()" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Amine <span>Inc.</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="mynav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class="collapse-padding hvr-underline-from-center" href="#">Home </a></li>
+                    <li><a class="collapse-padding hvr-underline-from-center" href="#">About</a></li>
+                    <li><a class="collapse-padding hvr-underline-from-center" href="#">Company</a></li>
+                    <li class="dropdown">
+                        <a class="collapse-padding dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Programming</a></li>
+                            <li><a href="#">Designing</a></li>
+                            <li><a href="#">Hacking</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Amine Islah</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="collapse-padding hvr-underline-from-center" href="#">Map</a></li>
+                    <li><a class="collapse-padding hvr-underline-from-center" href="#">Contact</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--END NAVBAR-->
+
+    <!--START CAROUSSEL-->
+
+    <div id="myslide" class="carousel slide visible-md visible-lg" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/image2.jpg" alt="image2">
+                <div class="carousel-caption ">
+
+                </div>
+                </div>
+                <div class="item">
+                    <img src="images/image3.jpg" alt="image3">
+                    <div class="carousel-caption ">
+
+                    </div>
+                </div>
+
+
+            <div class="item">
+                <img src="images/image1.jpg" alt="image1">
+                <div class="carousel-caption ">
+
+
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/image4.webp" alt="image4">
+                <div class="carousel-caption ">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--END CAROUSSEL-->
+    <section class="features text-center">
+        <h1>OUR FEATURES</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat hvr-hang">
+                        <span class="glyphicon glyphicon-ok"></span>
+                        <h3>Secure</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem cum cupiditate sint temporibus quasi quo nemo nam. Repellendus dolorem earum magnam quasi magni, voluptatem vel dolorum nesciunt! Veritatis, consequuntur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat hvr-hang">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <h3>After Buy Service</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem cum cupiditate sint temporibus quasi quo nemo nam. Repellendus dolorem earum magnam quasi magni, voluptatem vel dolorum nesciunt! Veritatis, consequuntur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat hvr-hang">
+                        <span class="glyphicon glyphicon-flash"></span>
+                        <h3>Speedy Services</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem cum cupiditate sint temporibus quasi quo nemo nam. Repellendus dolorem earum magnam quasi magni, voluptatem vel dolorum nesciunt! Veritatis, consequuntur.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat hvr-hang">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>
+                        <h3>Trusted</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem cum cupiditate sint temporibus quasi quo nemo nam. Repellendus dolorem earum magnam quasi magni, voluptatem vel dolorum nesciunt! Veritatis, consequuntur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="testimonials text-center">
+        <div class="container">
+            <h1>WHAT OUR CLIENTS SAY</h1>
+            <!--START CAROUSSEL-->
+
+            <div id="myslide2" data-aos="fade-up" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <blockquote>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum dignissimos vero nulla sint velit beatae numquam impedit cumque officiis corporis ut fuga consectetur hic consequuntur sit, cupiditate rem quia earum qui. Dignissimos omnis cupiditate voluptas sapiente? Assumenda ad consequuntur expedita dignissimos sapiente rerum, modi officia laudantium tenetur ipsa? Vero incidunt cum iusto similique officia non a deserunt animi! Molestias eveniet doloribus .</p>
+                            <h3>AMINE ISLAH</h3>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="item">
+                        <blockquote>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum dignissimos vero nulla sint velit beatae numquam impedit cumque officiis corporis ut fuga consectetur hic consequuntur sit, cupiditate rem quia earum qui. Dignissimos omnis cupiditate voluptas sapiente? Assumenda ad consequuntur expedita dignissimos sapiente rerum, modi officia laudantium tenetur ipsa? Vero incidunt cum iusto similique officia non a deserunt animi! Molestias eveniet doloribus .</p>
+                            <h3>SALMA LAHOUBI</h3>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="item">
+                        <blockquote>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum dignissimos vero nulla sint velit beatae numquam impedit cumque officiis corporis ut fuga consectetur hic consequuntur sit, cupiditate rem quia earum qui. Dignissimos omnis cupiditate voluptas sapiente? Assumenda ad consequuntur expedita dignissimos sapiente rerum, modi officia laudantium tenetur ipsa? Vero incidunt cum iusto similique officia non a deserunt animi! Molestias eveniet doloribus .</p>
+                            <h3>E.SEMLALI MOHAMED</h3>
+                        </blockquote>
+                    </div>
+
+                    <div class="item">
+                        <blockquote>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum dignissimos vero nulla sint velit beatae numquam impedit cumque officiis corporis ut fuga consectetur hic consequuntur sit, cupiditate rem quia earum qui. Dignissimos omnis cupiditate voluptas sapiente? Assumenda ad consequuntur expedita dignissimos sapiente rerum, modi officia laudantium tenetur ipsa? Vero incidunt cum iusto similique officia non a deserunt animi! Molestias eveniet doloribus .</p>
+                            <h3>HAMZA RAYA</h3>
+                        </blockquote>
+                    </div>
+
+                </div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myslide2" data-slide-to="0" class="active">
+                        <img class="img-circle" src="images/avatar1.png" alt="avatar1">
+                    </li>
+                    <li data-target="#myslide2" data-slide-to="1">
+                        <img class="img-circle" src="images/avatar2.png" alt="avatar2">
+                    </li>
+                    <li data-target="#myslide2" data-slide-to="2">
+                        <img class="img-circle" src="images/avatar3.png" alt="avatar3">
+                    </li>
+                    <li data-target="#myslide2" data-slide-to="3">
+                        <img class="img-circle" src="images/avatar4.png" alt="avatar4">
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-team text-center">
+        <div class="team">
+            <div class="container">
+
+                <h1>MEET OUR TEAM</h1>
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="person p1">
+                        <img class="img-circle" src="./images/avatar1.png" alt="jobs">
+                        <h3>AMINE ISLAH</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="person p2">
+                        <img class="img-circle" src="./images/avatar2.png" alt="jobs">
+                        <h3>SALMA LAHOUBI</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laborum quis .</p>
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </div>
+                </div>
+                <div class="clearfix hidden-lg"></div>
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="person p3">
+                        <img class="img-circle" src="./images/avatar3.png" alt="jobs">
+                        <h3>HAMZA RAYA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="person p4">
+                        <img class="img-circle" src="./images/avatar4.png" alt="jobs">
+                        <h3>E.S MOHAMED</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa fa-twitter-square fa-3x"></i>
+                        <i class="fa fa-youtube-square fa-3x"></i>
+                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-google-plus-square fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--START PROGRESS SKILLS-->
+    <section class="skills">
+        <h1 class="text-center">OUR SKILL</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="marg">
+                        <div class="progress data-aos=" data-aos="fade-left">
+                            <div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;background-color: #A81824 !important;">
+                                PHP & MYSQL
+                            </div>
+                        </div>
+                        <div class="progress data-aos=" data-aos="fade-right">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;background-color: #2FA7DC !important;">
+                                HTML5 & CSS3 & BOOTSTRAP
+                            </div>
+                        </div>
+                        <div class="progress data-aos=" data-aos="fade-left">
+                            <div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;background-color: #ECAE4D !important;">
+                                JQUERY & JAVASCRIPT
+                            </div>
+                        </div>
+                        <div class="progress data-aos=" data-aos="fade-right">
+                            <div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: #EBA38B !important;">
+                                ALGORITHMS & BI
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-12">
+                    <div class="marg" data-aos="fade-left">
+                        <h3 class="lead">ABOUT THE TEAM</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde necessitatibus voluptatum nam laborum voluptatibus maiores.</p>
+                        <button class="btn btn-primary">TALK WITH A PROFESSIONAL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END PROGRESS SKILLS-->
+
+
+    <!-- START STATISTICS SECTION -->
+    <section class="statics text-center">
+        <div class="data">
+            <div class="container">
+                <h1>statics of our services</h1>
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="state">
+                        <i class="fa fa-users fa-5x"></i>
+                        <p class="lead">9388</p>
+                        <h3>Satisfied Users</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="state">
+                        <i class="fa fa-comments fa-5x"></i>
+                        <P class="lead">100,423</P>
+                        <h3>Posted Comments</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="state">
+                        <i class="fa fa-suitcase fa-5x"></i>
+                        <p class="lead">5402</p>
+                        <h3>Projects Achieved</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div data-aos="fade-up" class="state">
+                        <i class="fa fa-support fa-5x"></i>
+                        <p class="lead">840+</p>
+                        <h3>Tickets Achieved</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- START SUBSCRIBTION MAIL -->
+
+    <section class="subscribe text-center">
+        <div class="container">
+            <i class="fa fa-paper-plane fa-5x" aria-hidden="true"></i>
+            <h2>SUBSCRIBE TO GET LATEST UPDATES</h2>
+            <p class="lead">we will not spam we hate it to.</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, consequuntur.</p>
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Email@Example.com">
+                    <button class="btn btn-danger btn-lg">Send Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- END SUBSCRIPTOPN MAIL -->
+
+    <section class="contact-us text-center">
+        <div class="contact">
+            <i class="fa fa-headphones fa-5x"></i>
+            <h3>Tell Us What You Fell</h3>
+            <p class="lead">Feel Free To Contact Us now !</p>
+            <div class="container">
+                <div class="row">
+                    <form>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control input-lg" type="text" placeholder="Name Complet">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control input-lg" type="text" placeholder="Email@adress.com">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control input-lg" type="text" placeholder="+21206xxxxx">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control input-lg" type="text" placeholder="Amine Islah">
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control input-lg" name="textaria" placeholder="YOUR MESSAGE HERE !"></textarea>
+
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-lg btn-block">Send Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- START SECTION OUR CLIENTS  -->
+    <div class="our-clients text-center">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/bbc3.png" alt="bbc">
+                </div>
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/cnn2.png" alt="bbc">
+                </div>
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/ford2.png" alt="bbc">
+                </div>
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/wired2.png" alt="bbc">
+                </div>
+
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/lenovo2.png" alt="bbc">
+                </div>
+
+                <div data-aos="fade-right" class="col-md-2 col-sm-4 col-xs-6">
+                    <img src="./images/bresser2.png" alt="bbc">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECTION OUR CLIENTS -->
+
+    <!-- START SECTION FOOTER-->
+    <footer id="footer" class="footer">
+        <div class="ft">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4 footer-contact-details">
+                        <h4><i class="fa fa-phone"></i>&nbsp;Call</h4>
+                        <p>212-616-372800</p>
+                    </div>
+                    <div class="col-md-4 footer-contact-details">
+                        <h4><i class="fa fa-map-marker"></i> Address</h4>
+                        <p>304 S. Jones Blvd. #1205<br>Las Vegas, NV 89107</p>
+                    </div>
+                    <div class="col-md-4 footer-contact-details">
+                        <h4><i class="fa fa-envelope"></i> Email</h4>
+                        <p><a href="mailto:amineislah1997@gmail.com">amineislah1997@gmail.com</a></p>
+                    </div>
+                </div>
+                <p class="copyright">&copy; 2020 Amine.islah LLC</p>
+            </div>
+        </div>
+    </footer>
+    <div class="up" onclick="goup()">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+    <!-- END SECTION FOOTER -->
+
+    <section class="loading">
+        <div class="container">
+            <div class="text-center">
+                <h1>WELCOM BACK AMINE ISLAH TO YOUR WEBSITE</h1>
+            </div>
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
