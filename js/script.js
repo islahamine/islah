@@ -45,9 +45,7 @@ function check() { // eslint-disable-line no-unused-vars
 
 function goup() { // eslint-disable-line no-unused-vars
     'use strict';
-    $("html,body").animate({
-        scrollTop: 0
-    }, 600);
+    $("html,body").scrollTop(0);
 }
 $(window).on("load", function () {
     'use strict';
