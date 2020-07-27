@@ -64,5 +64,5 @@ $(window).on("load", function () {
                $(".loading").fadeOut("slow",function () {
                 $(this).remove();
                 $(window).scrollTop(0);
-               });},3000);
+               });},1700);
 });
